@@ -8,6 +8,7 @@
   "private": true,
   "dependencies": {
     "@jscutlery/semver": "^3.1.0",
+    "@nx/devkit": "^16.0.0",
     "@nx/rollup": "16.0.0",
     "@swc/helpers": "~0.5.0",
     "ngx-deploy-npm": "^7.0.1",
