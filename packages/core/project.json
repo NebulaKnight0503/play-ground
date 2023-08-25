@@ -51,6 +51,13 @@
         "skipProjectChangelog": true,
         "skipRootChangelog": true,
         "baseBranch": "main"
+      },
+      "configurations": {
+        "dev": {
+          "releaseAs": "prerelease",
+          "preid": "dev",
+          "skipRootChangelog": true
+        }
       }
     },
     "deploy": {
