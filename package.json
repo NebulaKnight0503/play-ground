@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "build:all": "nx run-many --target=build --all --configuration=production",
-    "lint": "nx run-many --target=lint --all --parallel"
+    "lint": "nx run-many --target=lint --all --parallel",
+    "test": "nx run-many --target=test --all"
   },
   "dependencies": {
     "@jscutlery/semver": "^3.1.0",
