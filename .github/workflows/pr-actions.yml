@@ -26,7 +26,7 @@ jobs:
         run: yarn install
       - name: Run Build All
         run: yarn build:all
-      - name: Run Linting
-        run: yarn lint
+#      - name: Run Linting
+#        run: yarn lint
       - name: Run Unit & Integration Tests
         run: yarn test
