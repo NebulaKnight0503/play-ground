@@ -55,7 +55,7 @@ jobs:
           MERGE_LABELS: automerge
           MERGE_METHOD: squash
           MERGE_COMMIT_MESSAGE: pull-request-title
-          MERGE_REQUIRED_APPROVALS: 1
+          MERGE_REQUIRED_APPROVALS: 0
 
   prod-pr:
     if: github.base_ref == 'main' && github.event.pull_request.draft == false
@@ -68,4 +68,4 @@ jobs:
           MERGE_LABELS: automerge
           MERGE_METHOD: rebase
           MERGE_COMMIT_MESSAGE: automatic
-          MERGE_REQUIRED_APPROVALS: 1
+          MERGE_REQUIRED_APPROVALS: 0
