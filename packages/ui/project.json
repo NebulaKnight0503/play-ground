@@ -15,7 +15,7 @@
         "assets": [],
         "format": ["esm", "cjs"],
         "project": "packages/ui/package.json",
-        "compiler": "babel"
+        "compiler": "swc"
       }
     },
     "publish": {
