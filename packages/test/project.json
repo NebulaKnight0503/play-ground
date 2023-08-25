@@ -11,6 +11,7 @@
         "outputPath": "dist/packages/test",
         "main": "packages/test/src/index.ts",
         "tsConfig": "packages/test/tsconfig.lib.json",
+        "buildableProjectDepsInPackageJsonType": "dependencies",
         "assets": [],
         "format": ["esm", "cjs"],
         "project": "packages/test/package.json",
