@@ -1,5 +1,5 @@
 export function core(): string {
-  return 'core';
+  return 'core CORE';
 }
 export const logMessage = (message: string) => {
   console.log(message);
