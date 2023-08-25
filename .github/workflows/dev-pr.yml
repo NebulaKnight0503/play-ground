@@ -49,7 +49,7 @@ jobs:
             const script = require('.github/actions/pr-title.js').update;
             await script({ context, github });
       - name: automerge
-        uses: pascalgn/automerge-action@v0.14.3
+        uses: pascalgn/automerge-action@v0.15.6
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           MERGE_LABELS: automerge
