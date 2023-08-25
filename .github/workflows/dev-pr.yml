@@ -17,7 +17,11 @@ on:
       - dev
       - main
 
-permissions: write-all
+permissions:
+  actions: write
+  issues: write
+  pull-requests: write
+  contents: write
 
 jobs:
   # printer:
