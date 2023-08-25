@@ -21,7 +21,6 @@ permissions:
   actions: write
   issues: write
   pull-requests: write
-  contents: write
 
 jobs:
   # printer:
