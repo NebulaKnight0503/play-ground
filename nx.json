@@ -8,7 +8,6 @@
       }
     }
   },
-  "extends": "nx/presets/npm.json",
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "pluginsConfig": {
     "@nrwl/js": {
@@ -19,6 +18,9 @@
     "defaultBase": "main"
   },
   "targetDefaults": {
+    "build": {
+      "dependsOn": ["^build"]
+    },
     "lint": {
       "inputs": [
         "default",

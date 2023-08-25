@@ -11,8 +11,8 @@
         "outputPath": "dist/packages/core",
         "main": "packages/core/src/index.ts",
         "tsConfig": "packages/core/tsconfig.lib.json",
-        "format": ["esm", "cjs"],
         "assets": [],
+        "format": ["esm", "cjs"],
         "project": "packages/core/package.json",
         "compiler": "babel"
       }
