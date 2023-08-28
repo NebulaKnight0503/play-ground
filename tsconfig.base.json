@@ -17,8 +17,7 @@
     "allowSyntheticDefaultImports": true,
     "strictPropertyInitialization": false,
     "paths": {
-      "@nx-playground/core": ["packages/core/src/index.ts"],
-      "@nx-playground/ui": ["packages/ui/src/index.ts"]
+      "@nx-playground/core": ["packages/core/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
