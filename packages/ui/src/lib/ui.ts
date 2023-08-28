@@ -5,3 +5,4 @@ export function ui(): string {
 }
 
 logMessage("Test");
+logMessage("Test");
