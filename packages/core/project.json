@@ -5,13 +5,28 @@
   "projectType": "library",
   "targets": {
     "build": {
-      "executor": "@nx/js:tsc",
-      "outputs": ["{options.outputPath}"],
+      "executor": "@nrwl/rollup:rollup",
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "options": {
         "outputPath": "dist/packages/core",
-        "main": "packages/core/src/index.ts",
         "tsConfig": "packages/core/tsconfig.lib.json",
-        "assets": ["packages/core/*.md"]
+        "project": "packages/core/package.json",
+        "entryFile": "packages/core/src/index.ts",
+        "buildableProjectDepsInPackageJsonType": "dependencies",
+        "compiler": "babel",
+        "format": [
+          "esm",
+          "cjs"
+        ],
+        "assets": [
+          {
+            "glob": "packages/core/README.md",
+            "input": ".",
+            "output": "."
+          }
+        ]
       }
     },
     "publish": {
