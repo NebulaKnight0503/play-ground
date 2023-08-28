@@ -5,17 +5,28 @@
   "projectType": "library",
   "targets": {
     "build": {
-      "executor": "@nx/rollup:rollup",
-      "outputs": ["{options.outputPath}"],
+      "executor": "@nrwl/rollup:rollup",
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "options": {
         "outputPath": "dist/packages/ui",
-        "main": "packages/ui/src/index.ts",
         "tsConfig": "packages/ui/tsconfig.lib.json",
-        "buildableProjectDepsInPackageJsonType": "dependencies",
-        "assets": [],
-        "format": ["esm", "cjs"],
         "project": "packages/ui/package.json",
-        "compiler": "swc"
+        "entryFile": "packages/ui/src/index.ts",
+        "buildableProjectDepsInPackageJsonType": "dependencies",
+        "compiler": "babel",
+        "format": [
+          "esm",
+          "cjs"
+        ],
+        "assets": [
+          {
+            "glob": "packages/ui/README.md",
+            "input": ".",
+            "output": "."
+          }
+        ]
       }
     },
     "publish": {
@@ -52,6 +63,13 @@
         "skipProjectChangelog": true,
         "skipRootChangelog": true,
         "baseBranch": "main"
+      },
+      "configurations": {
+        "dev": {
+          "releaseAs": "prerelease",
+          "preid": "dev",
+          "skipRootChangelog": true
+        }
       }
     },
     "deploy": {

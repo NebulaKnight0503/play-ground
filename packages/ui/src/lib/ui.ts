@@ -1,4 +1,4 @@
-import { logMessage} from "@nx-playground/core";
+import { logMessage } from "@nx-playground/core";
 
 export function ui(): string {
   return 'ui';

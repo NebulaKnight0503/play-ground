@@ -14,6 +14,8 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
+    "strictPropertyInitialization": false,
     "paths": {
       "@nx-playground/core": ["packages/core/src/index.ts"],
       "@nx-playground/ui": ["packages/ui/src/index.ts"]
