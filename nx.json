@@ -4,23 +4,16 @@
       "runner": "nx-cloud",
       "options": {
         "cacheableOperations": ["build", "lint", "test", "e2e"],
-        "accessToken": "ZGJiZTJhOGItNWYyNS00ZTVhLWEzOTAtODY4NmM5MTRjM2UyfHJlYWQtd3JpdGU="
+        "accessToken": "OWM3MTJjMGMtZTNiNy00YjUwLTgyYmUtOWIxMzJlM2I3OWRmfHJlYWQtd3JpdGU="
       }
     }
   },
+  "extends": "nx/presets/npm.json",
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "pluginsConfig": {
-    "@nrwl/js": {
-      "analyzeSourceFiles": true
-    }
-  },
   "affected": {
-    "defaultBase": "main"
+    "defaultBase": "master"
   },
   "targetDefaults": {
-    "build": {
-      "dependsOn": ["^build"]
-    },
     "lint": {
       "inputs": [
         "default",
