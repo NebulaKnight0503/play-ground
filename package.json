@@ -9,6 +9,8 @@
   },
   "private": true,
   "dependencies": {
+    "@jscutlery/semver": "^3.1.0",
+    "ngx-deploy-npm": "^7.0.1",
     "tslib": "^2.3.0"
   },
   "devDependencies": {
