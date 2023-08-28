@@ -17,7 +17,8 @@
     "allowSyntheticDefaultImports": true,
     "strictPropertyInitialization": false,
     "paths": {
-      "@nx-playground/core": ["packages/core/src/index.ts"]
+      "@nx-playground/core": ["packages/core/src/index.ts"],
+      "@nx-playground/modal-ui": ["packages/modal-ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
