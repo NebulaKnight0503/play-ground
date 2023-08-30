@@ -39,7 +39,7 @@
 - File where translated text is rendered
 
   ```ts
-  import { translate } from "@near-wallet-selector/core";
+  import { translate } from "@nx-playground/core";
 
   // Text that will be translated
   translate("modal.wallet.connectYourWallet")

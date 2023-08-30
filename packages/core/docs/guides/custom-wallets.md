@@ -11,7 +11,7 @@ import {
   WalletModuleFactory,
   WalletBehaviourFactory,
   BrowserWallet,
-} from "@near-wallet-selector/core";
+} from "@nx-playground/core";
 
 export interface MyWalletParams {
   iconUrl?: string;
