@@ -1,8 +1,1 @@
-export { setupModal } from "./lib/modal";
-
-export type {
-  WalletSelectorModal,
-  ModalOptions,
-  Theme,
-  ModalEvents,
-} from "./lib/modal.types";
+export { modalUiJs } from "./lib/modal-ui.js"

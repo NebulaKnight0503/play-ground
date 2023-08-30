@@ -1,22 +1,16 @@
 {
   "name": "@nx-playground/modal-ui-js",
-  "version": "0.0.1",
-  "description": "Modal UI package for NEAR wallet Selector",
+  "version": "0.0.2",
+  "description": "This is the modal-ui-js package",
   "keywords": [
-    "near",
-    "blockchain",
-    "wallets",
-    "dapps",
-    "near-protocol",
-    "near-blockchain",
-    "wallet selector"
+    "core"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/near/wallet-selector.git"
+    "url": "https://github.com/kujtimprenkuSQA/nx-playground.git"
   },
   "bugs": {
-    "url": "https://github.com/near/wallet-selector/issues"
+    "url": "https://github.com/kujtimprenkuSQA/nx-playground/issues"
   },
-  "homepage": "https://github.com/near/wallet-selector/tree/main/packages/modal-ui-js"
+  "homepage": "https://github.com/kujtimprenkuSQA/nx-playground/tree/main/packages/modal-ui-js"
 }

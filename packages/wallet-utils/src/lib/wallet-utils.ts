@@ -1,4 +1,7 @@
-import { createAction } from "./create-action";
-import { signTransactions } from "./sign-transactions";
+import { logMessage } from "@nx-playground/core";
 
-export { createAction, signTransactions };
+export const walletUtils = () => {
+    return "wallet-utils";
+}
+
+logMessage("Test wallet utils")
