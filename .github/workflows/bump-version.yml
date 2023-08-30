@@ -52,7 +52,7 @@ jobs:
         run: yarn build:all
 
       - name: Deploy
-        run: yarn nx run-many --target=deploy --all --dry-run
+        run: yarn nx run-many --target=deploy --noBuild --all --dry-run
         env:
           EXAMPLE_APPS: ${{ env.EXAMPLE_APPS }}
 
