@@ -3,6 +3,12 @@
 NX Playground is a monorepo `package-based` project created to test the NX functionality.
 
 
+## Publish to NPM
+
+This project showcases how to publish multiple packages with [ngx-deploy-npm](https://www.npmjs.com/package/ngx-deploy-npm) via GH-Actions [bump-version.yml](./.github/workflows/bump-version.yml)
+
+Project contains multiple package under [`@nx-playground`](https://www.npmjs.com/org/nx-playground) scope
+
 ## Running scripts
 
 Build all packages
