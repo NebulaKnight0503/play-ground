@@ -3,7 +3,7 @@
   "version": "0.0.2",
   "description": "This is the wallet-utils package",
   "keywords": [
-    "core"
+    "wallet-utils"
   ],
   "repository": {
     "type": "git",
