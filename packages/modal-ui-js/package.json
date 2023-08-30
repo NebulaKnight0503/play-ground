@@ -1,6 +1,6 @@
 {
   "name": "@nx-playground/modal-ui-js",
-  "version": "8.5.1",
+  "version": "0.0.1",
   "description": "Modal UI package for NEAR wallet Selector",
   "keywords": [
     "near",
