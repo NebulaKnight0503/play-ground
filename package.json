@@ -1,6 +1,6 @@
 {
   "name": "nx-playground",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "license": "MIT",
   "scripts": {
     "build:all": "nx run-many --target=build --all --configuration=production",
