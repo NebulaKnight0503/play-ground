@@ -9,3 +9,4 @@ import { logMessage } from "@nx-playground/core";
 logMessage(walletUtils());
 
 logMessage("Test my-near-wallet")
+logMessage("Test my-near-wallet 1")
