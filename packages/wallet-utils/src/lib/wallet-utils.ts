@@ -1,7 +1,7 @@
-import { logMessage } from "@nx-playground/core";
+import { logMessageUppercase } from "@nx-playground/core";
 
 export const walletUtils = () => {
     return "wallet-utils";
 }
 
-logMessage("Test wallet utils")
+logMessageUppercase("Test wallet utils")

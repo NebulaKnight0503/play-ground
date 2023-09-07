@@ -3,9 +3,9 @@
   "version": "0.0.13",
   "license": "MIT",
   "scripts": {
-    "build:all": "nx run-many --target=build --all --configuration=production",
-    "test": "nx run-many --target=test --all",
-    "lint": "nx run-many --target=lint --all --parallel"
+    "build:all": "nx run-many --target=build --all --exclude=workspace --configuration=production",
+    "test": "nx run-many --target=test --exclude=workspace --all",
+    "lint": "nx run-many --target=lint --all --exclude=workspace --parallel"
   },
   "dependencies": {
     "@jscutlery/semver": "^3.1.0",

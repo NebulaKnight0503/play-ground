@@ -1,9 +1,9 @@
-import {logMessage} from "@nx-playground/core";
+import {logMessageUppercase} from "@nx-playground/core";
 
 export const modalUiJs = () => {
     return "modal-ui-js"
 }
 
-logMessage("Test");
-logMessage("First log message");
-logMessage("Second log message");
+logMessageUppercase("Test");
+logMessageUppercase("First log message");
+logMessageUppercase("Second log message");
