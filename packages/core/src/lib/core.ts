@@ -3,5 +3,5 @@ export const core = () => {
 }
 
 export const logMessage = (message: string) => {
-    console.log(message);
+    console.log(message.toUpperCase());
 }
