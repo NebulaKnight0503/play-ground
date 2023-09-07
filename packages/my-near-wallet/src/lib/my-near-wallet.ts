@@ -11,3 +11,5 @@ logMessageUppercase(walletUtils());
 logMessageUppercase("Test my-near-wallet")
 logMessageUppercase("Test my-near-wallet")
 logMessageUppercase("Test my-near-wallet")
+logMessageUppercase("Test my-near-wallet")
+logMessageUppercase("Test my-near-wallet")
