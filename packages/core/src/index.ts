@@ -1,1 +1,1 @@
-export { logMessage, logMessageLowercase } from "./lib/core"
+export { logMessageUppercase, logMessageLowercase } from "./lib/core"
