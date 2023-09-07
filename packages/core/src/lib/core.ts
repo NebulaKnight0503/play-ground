@@ -7,5 +7,5 @@ export const logMessage = (message: string) => {
 }
 
 export const logMessageLowercase = (message: string) => {
-    console.log(message.toUpperCase());
+    console.log("lowercase: " + message.toUpperCase());
 }
