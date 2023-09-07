@@ -1,0 +1,25 @@
+{
+  "name": "workspace",
+  "$schema": "node_modules/nx/schemas/project-schema.json",
+  "targets": {
+    "version": {
+      "executor": "@jscutlery/semver:version",
+      "options": {
+        "preset": "angular",
+        "commitMessageFormat": "chore(release): release version ${version}",
+        "syncVersions": true,
+        "skipProjectChangelog": true,
+        "skipRootChangelog": true,
+        "baseBranch": "main"
+      },
+      "configurations": {
+        "dev": {
+          "releaseAs": "prerelease",
+          "preid": "dev",
+          "skipRootChangelog": true
+        }
+      }
+    }
+  },
+  "tags": []
+}
