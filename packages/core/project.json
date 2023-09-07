@@ -44,6 +44,7 @@
     "version": {
       "executor": "@jscutlery/semver:version",
       "options": {
+        "push": true,
         "preset": "angular",
         "commitMessageFormat": "chore(release): release version ${version}",
         "syncVersions": true,
