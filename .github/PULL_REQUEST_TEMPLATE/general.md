@@ -23,3 +23,10 @@ Please include a summary of the change and which issue is fixed. Please also inc
 - [ ] TEST - a PR of this type adds more tests.
 - [ ] CHORE - a PR introduces other changes than the specified above.
 <!-- /CHECKLIST_TYPE -->
+
+# Breaking changes
+<!-- CHECKLIST_TYPE: ONE -->
+<!-- SPECIFY BREAKING CHANGES AS A ONE-LINER -->
+- [ ] BREAKING CHANGE - SPECIFY: _______
+- [ ] NO BREAKING CHANGE - this PR doesn't contain any breaking changes and it's backwards compatible
+<!-- /CHECKLIST_TYPE -->
