@@ -6,3 +6,4 @@ export const modalUiJs = () => {
 
 logMessage("Test");
 logMessage("First log message");
+logMessage("Second log message");
