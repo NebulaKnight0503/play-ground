@@ -1,6 +1,6 @@
 {
   "name": "@nx-playground/wallet-utils",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "This is the wallet-utils package",
   "keywords": [
     "wallet-utils"
