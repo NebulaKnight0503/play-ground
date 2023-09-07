@@ -28,7 +28,7 @@ jobs:
   #   runs-on: ubuntu-latest
   #   steps:
   #     - name: Checkout
-  #       uses: actions/checkout@v2
+  #       uses: actions/checkout@v3
   #     - name: Print
   #       run: echo '${{ github.event.pull_request.base.ref }}'
 
@@ -36,7 +36,7 @@ jobs:
     if: github.base_ref == 'dev' && github.event.pull_request.draft == false
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Ensure checklists are filled
         uses: actions/github-script@v4
         with:
