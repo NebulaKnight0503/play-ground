@@ -40,11 +40,11 @@ jobs:
 
       - name: Bump version
         if: github.ref == 'refs/heads/main'
-        run: yarn nx run core:version
+        run: yarn nx run workspace:version
 
       - name: Bump version
         if: github.ref != 'refs/heads/main'
-        run: yarn nx run core:version:dev --dryRun
+        run: yarn nx run workspace:version:dev --dryRun
 
       - name: Tag version
         if: github.ref == 'refs/heads/main'
