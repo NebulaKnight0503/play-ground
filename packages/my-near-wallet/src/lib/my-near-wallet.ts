@@ -1,12 +1,11 @@
 import {walletUtils} from "@nx-playground/wallet-utils";
-import {logMessageLowercase, logMessageUppercase} from "@nx-playground/core";
 
 export const myNearWallet = () => {
   return "my-near-wallet";
 }
 
+import { logMessageUppercase } from "@nx-playground/core";
 
 logMessageUppercase(walletUtils());
 
 logMessageUppercase("Test my-near-wallet 1");
-logMessageLowercase("Test my-near-wallet 1");
