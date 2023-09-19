@@ -10,3 +10,4 @@ logMessageUppercase(walletUtils());
 
 logMessageUppercase("Test my-near-wallet 1");
 logMessageUppercase("Test my-near-wallet 2");
+logMessageUppercase("Test my-near-wallet 3g");
