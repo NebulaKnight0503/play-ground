@@ -1,6 +1,6 @@
 {
   "name": "@nx-playground/core",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "This is the core package.",
   "keywords": [
     "core"
