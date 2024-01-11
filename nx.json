@@ -3,8 +3,13 @@
     "default": {
       "runner": "nx-cloud",
       "options": {
-        "cacheableOperations": ["build", "lint", "test", "e2e"],
-        "accessToken": "OWM3MTJjMGMtZTNiNy00YjUwLTgyYmUtOWIxMzJlM2I3OWRmfHJlYWQtd3JpdGU="
+        "cacheableOperations": [
+          "build",
+          "lint",
+          "test",
+          "e2e"
+        ],
+        "accessToken": "NzJhMmM1MjctNWJkMi00MWQ5LWEzYmUtYjExYjQyNjFhZjg1fHJlYWQ="
       }
     }
   },
@@ -14,7 +19,9 @@
   },
   "targetDefaults": {
     "build": {
-      "dependsOn": ["^build"]
+      "dependsOn": [
+        "^build"
+      ]
     },
     "lint": {
       "inputs": [
@@ -24,7 +31,11 @@
       ]
     },
     "test": {
-      "inputs": ["default", "^default", "{workspaceRoot}/jest.preset.js"]
+      "inputs": [
+        "default",
+        "^default",
+        "{workspaceRoot}/jest.preset.js"
+      ]
     }
   }
 }
